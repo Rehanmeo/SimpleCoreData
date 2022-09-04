@@ -14,6 +14,9 @@
 		5D042E5A28C5560200EE1D5F /* SimpleCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D042E5828C5560200EE1D5F /* SimpleCoreData.xcdatamodeld */; };
 		5D042E5C28C5561500EE1D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D042E5B28C5561500EE1D5F /* Assets.xcassets */; };
 		5D042E5F28C5561500EE1D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D042E5D28C5561500EE1D5F /* LaunchScreen.storyboard */; };
+		5D042E6928C5568100EE1D5F /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D042E6728C5568100EE1D5F /* Employee+CoreDataClass.swift */; };
+		5D042E6A28C5568100EE1D5F /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D042E6828C5568100EE1D5F /* Employee+CoreDataProperties.swift */; };
+		5D042E6D28C556C200EE1D5F /* PersistentStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D042E6C28C556C200EE1D5F /* PersistentStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		5D042E5B28C5561500EE1D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D042E5E28C5561500EE1D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D042E6028C5561500EE1D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D042E6728C5568100EE1D5F /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5D042E6828C5568100EE1D5F /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5D042E6C28C556C200EE1D5F /* PersistentStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		5D042E4E28C5560200EE1D5F /* SimpleCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				5D042E6728C5568100EE1D5F /* Employee+CoreDataClass.swift */,
+				5D042E6828C5568100EE1D5F /* Employee+CoreDataProperties.swift */,
 				5D042E4F28C5560200EE1D5F /* AppDelegate.swift */,
 				5D042E5128C5560200EE1D5F /* SceneDelegate.swift */,
 				5D042E5328C5560200EE1D5F /* ViewController.swift */,
@@ -66,6 +74,7 @@
 				5D042E5D28C5561500EE1D5F /* LaunchScreen.storyboard */,
 				5D042E6028C5561500EE1D5F /* Info.plist */,
 				5D042E5828C5560200EE1D5F /* SimpleCoreData.xcdatamodeld */,
+				5D042E6C28C556C200EE1D5F /* PersistentStorage.swift */,
 			);
 			path = SimpleCoreData;
 			sourceTree = "<group>";
@@ -141,9 +150,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D042E5A28C5560200EE1D5F /* SimpleCoreData.xcdatamodeld in Sources */,
+				5D042E6A28C5568100EE1D5F /* Employee+CoreDataProperties.swift in Sources */,
 				5D042E5428C5560200EE1D5F /* ViewController.swift in Sources */,
 				5D042E5028C5560200EE1D5F /* AppDelegate.swift in Sources */,
+				5D042E6928C5568100EE1D5F /* Employee+CoreDataClass.swift in Sources */,
 				5D042E5228C5560200EE1D5F /* SceneDelegate.swift in Sources */,
+				5D042E6D28C556C200EE1D5F /* PersistentStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
